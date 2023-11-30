@@ -1,4 +1,7 @@
-# global_influenza_project
+# COVID-19 pandemic re-shapes the global dispersal patterns of seasonal influenza viruses
+
+Zhiyuan Chen<sup>1,2</sup>, Joseph L.-H. Tsui 2, Bernardo Gutierrez 2,3, Simon Busch Moreno 2, Louis du Plessis 4,5, Xiaowei Deng 6, Jun Cai 1, Sumali Bajaj 2, Marc A. Suchard 7, Oliver G. Pybus 2,8, Philippe Lemey 9,‡,*, Moritz U. G. Kraemer 2,10,‡,*, Hongjie Yu 1,‡,*
+
 This repository contains code and data used in the paper entitled "COVID-19 pandemic re-shapes the global dispersal patterns of seasonal influenza viruses"
 
 All code and data contained within this repository is released under the CC BY-NC-SA License. 
