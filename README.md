@@ -14,12 +14,6 @@ Codes for regression model are reposited in "model_part".
 <h1> License </h1>
 <h4>CC BY-NC-SA 4.0 </h4>
 
-Copyright (c) 2023 Zhiyuan Chen, Fudan University & University of Oxford
-
-COVID-19 pandemic re-shapes the global dispersal patterns of seasonal influenza viruses © 2023 by Zhiyuan Chen is licensed under CC BY-NC-SA 4.0 
-
-CC BY-NC-SA 4.0
-
 Attribution-NonCommercial-ShareAlike 4.0 International
 This license requires that reusers give credit to the creator. It allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, for noncommercial purposes only. If others modify or adapt the material, they must license the modified material under identical terms.
 
@@ -29,3 +23,7 @@ NC: Only noncommercial use of your work is permitted.
 Noncommercial means not primarily intended for or directed towards commercial advantage or monetary compensation.
 
 SA: Adaptations must be shared under the same terms.
+
+COVID-19 pandemic re-shapes the global dispersal patterns of seasonal influenza viruses © 2023 by Zhiyuan Chen is licensed under CC BY-NC-SA 4.0 
+
+Copyright (c) 2023 Zhiyuan Chen, Fudan University & University of Oxford
