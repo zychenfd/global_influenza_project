@@ -23,7 +23,8 @@ All code and data contained within this repository is released under the CC BY-N
 Genetic data has not been provided due to the policy restriction. Due to the large sizes of Markov jumps files used in the paper, we have included only a subset of data.
 
 ## Repository structure and usage
-The structure of this repository is shown below. Data are reposited in "data_part", codes for generating the main figures are reposited in "figure_scripts", codes and results for genomics-based analyses are reposited in "genomic_part", and codes for regression model are reposited in "model_part".
+The structure of this repository is shown below.  
+Data are reposited in "data_part", codes and results for genomics-based analyses are reposited in "genomic_part", codes for regression model are reposited in "model_part", and codes for generating the main figures are reposited in "figure_scripts".
 
 ```
 global_influenza_project/
