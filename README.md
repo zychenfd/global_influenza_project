@@ -1,18 +1,66 @@
 # COVID-19 pandemic re-shapes the global dispersal patterns of seasonal influenza viruses
 
-Zhiyuan Chen<sup>1,2</sup>, Joseph L.-H. Tsui 2, Bernardo Gutierrez 2,3, Simon Busch Moreno 2, Louis du Plessis 4,5, Xiaowei Deng 6, Jun Cai 1, Sumali Bajaj 2, Marc A. Suchard 7, Oliver G. Pybus 2,8, Philippe Lemey 9,‡,*, Moritz U. G. Kraemer 2,10,‡,*, Hongjie Yu 1,‡,*
+Zhiyuan Chen<sup>1,2</sup>, Joseph L.-H. Tsui<sup>2</sup>, Bernardo Gutierrez<sup>2,3</sup>, Simon Busch Moreno<sup>2</sup>, Louis du Plessis<sup>4,5</sup>, Xiaowei Deng<sup>6</sup>, Jun Cai<sup>1</sup>, Sumali Bajaj<sup>2</sup>, Marc A. Suchard<sup>7</sup>, Oliver G. Pybus<sup>2,8</sup>, Philippe Lemey<sup>9,‡,†</sup>, Moritz U. G. Kraemer<sup>2,10,‡,†</sup>, Hongjie Yu<sup>1,‡,†</sup>
 
+1.	Department of Epidemiology, School of Public Health, Key Laboratory of Public Health Safety, Ministry of Education, Fudan University, Shanghai, China
+2.	Department of Biology, University of Oxford, Oxford, UK
+3.	Colegio de Ciencias Biologicas y Ambientales, Universidad San Francisco de Quito USFQ, Quito, Ecuador
+4.	Department of Biosystems Science and Engineering, ETH Zürich, Basel, Switzerland
+5.	Swiss Institute of Bioinformatics, Lausanne, Switzerland
+6.	Department of Epidemiology, National Vaccine Innovation Platform, School of Public Health, Nanjing Medical University, Nanjing, China
+7.	Departments of Biostatistics, Biomathematics and Human Genetics, University of California, Los Angeles, Los Angeles, CA, USA
+8.	Department of Pathobiology and Population Sciences, Royal Veterinary College London, London, UK
+9.	Department of Microbiology, Immunology and Transplantation, Rega Institute, KU Leuven, Leuven, Belgium
+10.	Pandemic Sciences Institute, University of Oxford, Oxford, UK
+
+<sup>‡</sup> Contributed equally as senior authors  
+<sup>†</sup> Correspondence: moritz.kraemer@biology.ox.ac.uk; philippe.lemey@kuleuven.be; yhj@fudan.edu.cn
+
+## Before starting
 This repository contains code and data used in the paper entitled "COVID-19 pandemic re-shapes the global dispersal patterns of seasonal influenza viruses"
 
 All code and data contained within this repository is released under the CC BY-NC-SA License. 
-Genetic data has not been provided due to the policy restriction. Due to the large sizes of some files used in the paper, we have included only a subset of data for these situations.
+Genetic data has not been provided due to the policy restriction. Due to the large sizes of Markov jumps files used in the paper, we have included only a subset of data.
 
-Data are reposited in "data_part".
-Codes for generating the main figures are reposited in "figure_scripts".
-Codes for genomics-based analyses are reposited in "genomic_part".
-Codes for regression model are reposited in "model_part".
+## Repository structure and usage
+The structure of this repository is shown below. Data are reposited in "data_part", codes for generating the main figures are reposited in "figure_scripts", codes and results for genomics-based analyses are reposited in "genomic_part", and codes for regression model are reposited in "model_part".
 
-
+```
+global_influenza_project/
+├── data_part
+│   ├── air_traffic_data
+│   ├── epi_data
+│   ├── map_data
+├── genomic_part
+│   ├── phylogenetic_analyses
+│   ├── phylogeographic_analyses
+│   │   ├── step1
+│   │   └── step2
+│   ├── post-analyses
+│   │   ├── glm_log_file
+│   │   ├── trunk
+│   │   ├── jump_history (a subset of data)
+│   │   ├── persistence
+│   │   ├── mcc_tree
+│   │   ├── diversity
+│   │   ├── pop_size
+│   │   ├── lineage_turnover_by
+│   │   └── nature_selection
+│   └── acknowledge_table
+├── model_part
+│   ├── bayesian_model.py
+│   ├── regression_plots
+│   └── forest_plots
+├── figure_scripts
+│   ├── Fig1.r
+│   ├── Fig2.r
+│   ├── Fig3.r
+│   ├── Fig4.r
+│   ├── Fig5.r
+│   ├── Fig6.r
+│   └── output
+└── README.md
+```
 
 <h1> License </h1>
 <h4>CC BY-NC-SA 4.0 </h4>
