@@ -1,0 +1,17 @@
+digraph G {
+	graph [dpi=300]
+	"Antigenic Drift" -> Persistence
+	"Air Traffic" -> Persistence
+	Epoch -> Persistence
+	Year -> Persistence
+	Region -> Persistence
+	"Air Traffic" -> "Antigenic Drift"
+	Epoch -> "Antigenic Drift"
+	Year -> "Antigenic Drift"
+	Region -> "Antigenic Drift"
+	Epoch -> "Air Traffic"
+	Year -> "Air Traffic"
+	Region -> "Air Traffic"
+	Year -> Epoch
+	Region -> Epoch
+}
