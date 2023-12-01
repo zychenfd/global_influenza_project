@@ -17,12 +17,11 @@ Zhiyuan Chen<sup>1,2</sup>, Joseph L.-H. Tsui<sup>2</sup>, Bernardo Gutierrez<su
 <sup>†</sup> Correspondence: moritz.kraemer@biology.ox.ac.uk; philippe.lemey@kuleuven.be; yhj@fudan.edu.cn
 
 ## Before starting
-This repository contains code and data used in the paper entitled "COVID-19 pandemic re-shapes the global dispersal patterns of seasonal influenza viruses"
-
-All code and data contained within this repository is released under the CC BY-NC-SA License. 
-Genetic data has not been provided due to the policy restriction.  
-Map files has not been provided due to redistribution restriction.   
-Due to the large sizes of Markov jumps files used in the paper, we have included only a subset of data.
+1. This repository contains code and data used in the paper entitled "COVID-19 pandemic re-shapes the global dispersal patterns of seasonal influenza viruses"  
+2. All code and data contained within this repository is released under the CC BY-NC-SA License. 
+3. Genetic data has not been provided due to the policy restriction.  
+4. Map files has not been provided due to redistribution restriction.   
+5. Due to the large sizes of Markov jumps files used in the paper, we have included only a subset of data.
 
 ## Repository structure and usage
 The structure of this repository is shown below.  
