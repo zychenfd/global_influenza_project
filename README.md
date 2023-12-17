@@ -1,6 +1,6 @@
 # COVID-19 pandemic re-shapes the global dispersal patterns of seasonal influenza viruses
 
-Zhiyuan Chen<sup>1,2</sup>, Joseph L.-H. Tsui<sup>2</sup>, Bernardo Gutierrez<sup>2,3</sup>, Simon Busch Moreno<sup>2</sup>, Louis du Plessis<sup>4,5</sup>, Xiaowei Deng<sup>6</sup>, Jun Cai<sup>1</sup>, Sumali Bajaj<sup>2</sup>, Marc A. Suchard<sup>7</sup>, Oliver G. Pybus<sup>2,8</sup>, Philippe Lemey<sup>9,‡,†</sup>, Moritz U. G. Kraemer<sup>2,10,‡,†</sup>, Hongjie Yu<sup>1,‡,†</sup>
+Zhiyuan Chen<sup>1,2</sup>, Joseph L.-H. Tsui<sup>2</sup>, Bernardo Gutierrez<sup>2,3</sup>, Simon Busch Moreno<sup>2</sup>, Louis du Plessis<sup>4,5</sup>, Xiaowei Deng<sup>6</sup>, Jun Cai<sup>1</sup>, Sumali Bajaj<sup>2</sup>, Marc A. Suchard<sup>7</sup>, Oliver G. Pybus<sup>2,8,‡</sup>, Philippe Lemey<sup>9,‡,†</sup>, Moritz U. G. Kraemer<sup>2,10,‡,†</sup>, Hongjie Yu<sup>1,‡,†</sup>
 
 1.	Department of Epidemiology, School of Public Health, Key Laboratory of Public Health Safety, Ministry of Education, Fudan University, Shanghai, China
 2.	Department of Biology, University of Oxford, Oxford, UK
@@ -9,7 +9,7 @@ Zhiyuan Chen<sup>1,2</sup>, Joseph L.-H. Tsui<sup>2</sup>, Bernardo Gutierrez<su
 5.	Swiss Institute of Bioinformatics, Lausanne, Switzerland
 6.	Department of Epidemiology, National Vaccine Innovation Platform, School of Public Health, Nanjing Medical University, Nanjing, China
 7.	Departments of Biostatistics, Biomathematics and Human Genetics, University of California, Los Angeles, Los Angeles, CA, USA
-8.	Department of Pathobiology and Population Sciences, Royal Veterinary College London, London, UK
+8.	Department of Pathobiology and Population Sciences, Royal Veterinary College, London, UK
 9.	Department of Microbiology, Immunology and Transplantation, Rega Institute, KU Leuven, Leuven, Belgium
 10.	Pandemic Sciences Institute, University of Oxford, Oxford, UK
 
@@ -46,7 +46,7 @@ global_influenza_project/
 │   │   ├── mcc_tree
 │   │   ├── diversity
 │   │   ├── pop_size
-│   │   ├── lineage_turnover_by
+│   │   ├── lineage_turnover
 │   │   └── nature_selection
 │   └── acknowledge_table
 ├── model_part
@@ -59,7 +59,6 @@ global_influenza_project/
 │   ├── Fig3.r
 │   ├── Fig4.r
 │   ├── Fig5.r
-│   ├── Fig6.r
 │   └── output
 └── README.md
 ```
