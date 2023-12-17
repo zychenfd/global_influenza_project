@@ -46,7 +46,6 @@ global_influenza_project/
 │   │   ├── mcc_tree
 │   │   ├── diversity
 │   │   ├── pop_size
-│   │   ├── lineage_turnover
 │   │   └── nature_selection
 │   └── acknowledge_table
 ├── model_part
