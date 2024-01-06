@@ -96,8 +96,8 @@ ggplot(trunk_even1_h1n1)+
   geom_ribbon(aes(x = date, ymin = 0, 
                   ymax = SoutheasternAsia, fill = "93.SoutheasternAsia"))+
   geom_vline(xintercept = c(as.Date("2020-02-01"),as.Date("2021-08-01")), linetype = 2, linewidth = 0.2)+
-  geom_line(data = trunk_even1[trunk_even1$type == "H1N1",],
-            aes(x = date, y = Shannon_index/2.5), linetype = 4, color = "grey20")+
+#  geom_line(data = trunk_even1[trunk_even1$type == "H1N1",],
+#            aes(x = date, y = Shannon_index/2.5), linetype = 4, color = "grey20")+
   scale_fill_manual("",values = value, label = label_region)+
   scale_x_date("Date", date_breaks = "6 month",date_labels = "%b %Y",
                limits = c(as.Date("2018-02-01"),as.Date("2022-08-01")), expand = c(0.01,0))+
@@ -105,7 +105,7 @@ ggplot(trunk_even1_h1n1)+
   annotate("segment", x = c(as.Date("2020-02-01"),as.Date("2021-08-01")),xend = c(as.Date("2020-02-01"),as.Date("2021-08-01")),
            yend = 1.02, y = 1.17, arrow = arrow(type = "open", length = unit(0.05, "inches")))+
   coord_cartesian(ylim = c(0,1), clip = "off")+
-  scale_y_continuous(expand = c(0.02,0),sec.axis = sec_axis(trans=~.* 2.5,name="Shannon index"))+
+  scale_y_continuous(expand = c(0.02,0))+
   theme_bw()+
   theme(axis.title.x = element_blank(),
         panel.border = element_rect(linewidth = 0.3),
@@ -140,12 +140,12 @@ ggplot(trunk_even1_h3n2)+
   geom_ribbon(aes(x = date, ymin = 0, 
                   ymax = SoutheasternAsia, fill = "93.SoutheasternAsia"))+
   geom_vline(xintercept = c(as.Date("2020-02-01"),as.Date("2021-08-01")), linetype = 2, linewidth = 0.2)+
-  geom_line(data = trunk_even1[trunk_even1$type == "H3N2",],
-            aes(x = date, y = Shannon_index/2.5), linetype = 4, color = "grey20")+
+#  geom_line(data = trunk_even1[trunk_even1$type == "H3N2",],
+#            aes(x = date, y = Shannon_index/2.5), linetype = 4, color = "grey20")+
   scale_fill_manual("",values = value, label = label_region)+
   scale_x_date("Date", date_breaks = "6 month",date_labels = "%b %Y",
                limits = c(as.Date("2018-02-01"),as.Date("2022-08-01")), expand = c(0.01,0))+
-  scale_y_continuous(expand = c(0.02,0),sec.axis = sec_axis(trans=~.* 2.5,name="Shannon index"))+
+  scale_y_continuous(expand = c(0.02,0))+
   theme_bw()+
   theme(axis.title.x = element_blank(),
         panel.grid = element_blank())+
@@ -179,12 +179,12 @@ ggplot(trunk_even1_bv)+
   geom_ribbon(aes(x = date, ymin = 0, 
                   ymax = SoutheasternAsia, fill = "93.SoutheasternAsia"))+
   geom_vline(xintercept = c(as.Date("2020-02-01"),as.Date("2021-08-01")), linetype = 2, linewidth = 0.2)+
-  geom_line(data = trunk_even1[trunk_even1$type == "BV",],
-            aes(x = date, y = Shannon_index/2.5), linetype = 4, color = "grey20")+
+#  geom_line(data = trunk_even1[trunk_even1$type == "BV",],
+#            aes(x = date, y = Shannon_index/2.5), linetype = 4, color = "grey20")+
   scale_fill_manual("",values = value, label = label_region)+
   scale_x_date("Date", date_breaks = "6 month",date_labels = "%b %Y",
                limits = c(as.Date("2018-02-01"),as.Date("2022-08-01")), expand = c(0.01,0))+
-  scale_y_continuous(expand = c(0.02,0),sec.axis = sec_axis(trans=~.* 2.5,name="Shannon index"))+
+  scale_y_continuous(expand = c(0.02,0))+
   theme_bw()+
   theme(axis.title.x = element_blank(),
         panel.grid = element_blank())+
@@ -218,12 +218,12 @@ ggplot(trunk_even1_by)+
   geom_ribbon(aes(x = date, ymin = 0, 
                   ymax = SoutheasternAsia, fill = "93.SoutheasternAsia"))+
   # geom_vline(xintercept = c(as.Date("2020-02-01"),as.Date("2021-08-01")), linetype = 2, linewidth = 0.2)+
-  geom_line(data = trunk_even1[trunk_even1$type == "BY",],
-            aes(x = date, y = Shannon_index/2.5), linetype = 4, color = "grey20")+
+#  geom_line(data = trunk_even1[trunk_even1$type == "BY",],
+#            aes(x = date, y = Shannon_index/2.5), linetype = 4, color = "grey20")+
   scale_fill_manual("",values = value, label = label_region)+
   scale_x_date("Date", date_breaks = "1 year",date_labels = "%b %Y",
                limits = c(as.Date("2014-01-01"),as.Date("2019-01-01")), expand = c(0.01,0))+
-  scale_y_continuous(expand = c(0.02,0),sec.axis = sec_axis(trans=~.* 2.5,name="Shannon index"))+
+  scale_y_continuous(expand = c(0.02,0))+
   theme_bw()+
   annotate("text", x = c(as.Date("2016-06-20")), y = 1.1, label = c("Before the COVID-19 pandemic"))+
   annotate("segment", x = c(as.Date("2014-01-01"),as.Date("2019-01-01")),xend = c(as.Date("2014-01-01"),as.Date("2019-01-01")),
