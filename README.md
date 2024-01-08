@@ -22,7 +22,7 @@ Zhiyuan Chen<sup>1,2</sup>, Joseph L.-H. Tsui<sup>2</sup>, Bernardo Gutierrez<su
 2. All code and data contained within this repository is released under the CC BY-NC-SA License. 
 3. Genetic data has not been provided due to the policy restriction, and can be accessed in NCBI (https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/) and GISAID (https://www.gisaid.org/). 
 4. Map files have not been provided due to redistribution restriction, and can be accessed in GADM (https://gadm.org/data.html).  
-5. Due to the large sizes of Markov jumps files used in the paper, we have reduced the file size by including few tree files as an example (complete data has been deposited in https://figshare.com/account/home#/projects/187860).
+5. Due to the large sizes of Markov jumps files used in the paper, we have reduced the file size by including few tree files as an example (complete data has been deposited in https://figshare.com/authors/Zhiyuan_Chen/17535408).
 
 ## Repository structure and usage
 The structure of this repository is shown below.  
